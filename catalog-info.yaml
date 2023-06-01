@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test1"
+  description: 'This is a Nextjs and Tailwindcss starter'
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - react
+    - nextjs
+    - tailwindcss
+    - frontend
+spec:
+  type: service
+  owner: user:alexei
+  lifecycle: experimental
